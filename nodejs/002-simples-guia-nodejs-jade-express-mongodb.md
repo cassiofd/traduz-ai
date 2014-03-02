@@ -169,7 +169,7 @@ var path = require('path');
 
 ```
 
-Isso cria muitas variáveis básicas do JavaScript e as liga a certos pacotes, dependências, funcionalidades do Node e rotas. Rotas são como uma espécie de combinação de modelos e controladores nesta configuração - elas direcionam o tráfico e também contém alguma lógica de programação (você pode estabelecer uma arquitetura MVC mais tradicional com o Express se você quiser. Isso está fora do escopo deste artigo). Voltando ao momento onde nós configuramos este projeto, o Express criou todas essas coisas para nós. Vamos ignorar totalmente a rota *user* por agora e trabalhar somente na rota de nível superior (controlado por `nodetest1/routes/index.js`).
+Isso cria muitas variáveis básicas do JavaScript e as liga a certos pacotes, dependências, funcionalidades do Node e rotas. Rotas são como uma espécie de combinação de modelos e controladores nesta configuração - elas direcionam o tráfego e também contém alguma lógica de programação (você pode estabelecer uma arquitetura MVC mais tradicional com o Express se você quiser. Isso está fora do escopo deste artigo). Voltando ao momento onde nós configuramos este projeto, o Express criou todas essas coisas para nós. Vamos ignorar totalmente a rota *user* por agora e trabalhar somente na rota de nível superior (controlado por `nodetest1/routes/index.js`).
 
 `nodetest1/app.js`
 ```js
